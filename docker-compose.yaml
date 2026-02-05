@@ -1,0 +1,9 @@
+services:
+  mayank-portfolio:
+    build:
+      context: .
+      target: production
+    container_name: mayank-portfolio
+    ports:
+      - "3000:80"
+    restart: unless-stopped
