@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-sm text-gray-400">
-          <p>© {new Date().getFullYear()} Mayank Mishra. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Mayank Mishra. The Ultimate Physics Mentor.</p>
           {/* <div className="flex space-x-6">
             <a href="#" className="hover:text-gray-900 transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-gray-900 transition-colors">Terms of Service</a>
