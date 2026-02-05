@@ -26,8 +26,8 @@ const Footer: React.FC = () => {
           <div className="grid grid-cols-2 gap-8">
             <div>
               <h4 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">Location</h4>
-              <p className="text-gray-900 font-medium">Resonance Samastipur</p>
-              <p className="text-gray-500">Samastipur, Bihar, India</p>
+              {/* <p className="text-gray-900 font-medium">Resonance Samastipur</p> */}
+              <p className="text-gray-500">Madhepura, Bihar, India</p>
             </div>
             <div>
               <h4 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">Focus Areas</h4>
@@ -43,10 +43,10 @@ const Footer: React.FC = () => {
 
         <div className="pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-sm text-gray-400">
           <p>© {new Date().getFullYear()} Mayank Mishra. All rights reserved.</p>
-          <div className="flex space-x-6">
+          {/* <div className="flex space-x-6">
             <a href="#" className="hover:text-gray-900 transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-gray-900 transition-colors">Terms of Service</a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

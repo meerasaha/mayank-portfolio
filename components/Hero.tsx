@@ -1,6 +1,6 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
+import profilePic from '../assets/profilepic.jpeg';
 
 const Hero: React.FC = () => {
   return (
@@ -15,9 +15,9 @@ const Hero: React.FC = () => {
           >
             <div className="relative w-40 h-40 md:w-56 md:h-56">
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-100 to-gray-100 rounded-[2.5rem] rotate-6"></div>
-              <img 
-                src="/assets/profilepic.jpeg"
-                alt="Mayank Mishra" 
+              <img
+                src={profilePic}
+                alt="Mayank Mishra"
                 className="relative z-10 w-full h-full object-cover rounded-[2.5rem] shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 cursor-pointer"
               />
             </div>
@@ -38,16 +38,16 @@ const Hero: React.FC = () => {
             <p className="text-xl md:text-2xl text-gray-500 max-w-2xl mx-auto leading-relaxed font-light mb-10">
               I am Mayank Mishra. An engineer by degree, a teacher by heart. Currently shaping the future of young minds at Resonance, Samastipur.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a 
-                href="#journey" 
+              <a
+                href="#journey"
                 className="w-full sm:w-auto px-8 py-4 bg-gray-900 text-white rounded-2xl font-semibold hover:bg-black transition-all shadow-xl shadow-gray-200 active:scale-95"
               >
                 View My Journey
               </a>
-              <a 
-                href="#expertise" 
+              <a
+                href="#expertise"
                 className="w-full sm:w-auto px-8 py-4 bg-white text-gray-900 border border-gray-200 rounded-2xl font-semibold hover:bg-gray-50 transition-all active:scale-95"
               >
                 Teaching Philosophy
@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
         </div>
       </div>
 
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 1 }}
